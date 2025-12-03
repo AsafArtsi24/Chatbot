@@ -9,7 +9,7 @@ const [message, setMessage] = useState(' ');
       .then (data => setMessage(data.message));
   }, []);
   
-  return <p className= "font-bold"> {message}</p>
+  return <p className= "font-bold p-4 text-3xl"> {message}</p>
 
 }
 
