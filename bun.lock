@@ -4,6 +4,9 @@
   "workspaces": {
     "": {
       "name": "myapp",
+      "dependencies": {
+        "zod": "^4.1.13",
+      },
       "devDependencies": {
         "@types/bun": "latest",
         "concurrently": "^9.2.1",
